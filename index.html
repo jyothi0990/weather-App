@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="weather-container">
+    <h2>Weather Now</h2>
+
+    <label for="city">Enter City Name:</label>
+    <input type="text" id="city" placeholder="e.g., Hyderabad">
+
+    <button onclick="getWeather()">Search</button>
+
+    <div id="temp-div"></div>
+    <div id="weather-info"></div>
+    <img id="weather-icon" src="" alt="Weather Icon">
+
+    <h3 id="hourly-heading">Next 24 Hours</h3>
+    <div id="hourly-forecast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
